@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="terminal">
+        <div class="background-animations" id="backgroundAnimations"></div>
+        <div class="terminal-header">
+            <div class="terminal-title">user@portfolio:~</div>
+            <div class="help-container">
+                <button class="help-button" id="helpButton" aria-label="Show help commands">?</button>
+                <div class="help-menu" id="helpMenu">
+                    <div class="help-command" data-command="help">help - Show available commands</div>
+                    <div class="help-command" data-command="about">about - Personal information</div>
+                    <div class="help-command" data-command="projects">projects - View my projects</div>
+                    <div class="help-command" data-command="experience">experience - Work history</div>
+                    <div class="help-command" data-command="contact">contact - Get in touch</div>
+                    <div class="help-command" data-command="resume">resume - Download resume</div>
+                    <div class="help-command" data-command="clear">clear - Clear terminal</div>
+                    <div class="help-command" data-command="ls">ls - List sections</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="terminal-content" id="terminalContent">
+            <div class="output-line">Welcome to the Terminal Portfolio</div>
+            <div class="output-line">Type 'help' to see available commands or click the '?' for a visual menu</div>
+            <div class="output-line">Press Tab for auto-complete, Up/Down arrows for command history</div>
+            <div class="output-line">&nbsp;</div>
+        </div>
+        
+        <div class="terminal-input-container">
+            <span class="prompt">user@portfolio:~$ </span>
+            <input type="text" 
+                   class="terminal-input" 
+                   id="terminalInput" 
+                   autocomplete="off" 
+                   spellcheck="false"
+                   placeholder=""
+                   autofocus>
+            <span class="suggestion-text" id="suggestionText"></span>
+            <span class="cursor" id="cursor">█</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

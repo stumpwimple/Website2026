@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start index.html)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Read(/C:\\Users\\stump\\Documents\\Local Gits\\2026 Web Page/**)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
