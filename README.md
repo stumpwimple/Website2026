@@ -26,8 +26,19 @@ A hacker-inspired CLI-style personal portfolio website that provides an authenti
 ### Fun Commands
 - `matrix` - Matrix-style text animation
 - `hack` - Playful "hacking" sequence animation
-- `coffee` - ASCII art coffee cup
+- `coffee` - ASCII art coffee cup with animated steam
 - `uptime` - System information display
+
+### Secret Commands (Not shown in help)
+- `pacman` - Spawn Pac-Man animation
+- `rabbit` - Following the white rabbit
+- `ghost` - Ghost in the machine
+- `cookies` - Cookie trail animation
+- `tableflip` - Hacker rage mode
+- `dance` - Terminal dance party
+- `chase` - Cookie monster chase
+- `runner` - Fast runner animation
+- `spawn` - Force spawn random characters
 
 ## File Structure
 
@@ -82,12 +93,36 @@ Add new commands by:
 - Content Security Policy ready
 - XSS protection implemented
 
+## Advanced Features
+
+### Matrix Binary Background
+- Real-time binary stream generation flowing right-to-left
+- Commands display as green binary in background
+- Character-to-binary conversion (8-bit blocks with proper spacing)
+- Dynamic screen width adjustment on window resize
+- Configurable generation speed (currently 400ms intervals)
+
+### Movie Reference Animations
+- Background character animations inspired by hacker culture
+- Pac-Man, rabbit (Alice), ghost, cookie trails, table flip reactions
+- Multiple animation types: runners, chasers, hoppers
+- Randomized invasions every 15-60 seconds
+- Secret commands to manually trigger specific animations
+
+### Enhanced UX
+- Text shadow effects for improved readability over binary background
+- Loading animations with realistic command execution delays
+- Auto-clear functionality for main content sections
+- Clickable command links throughout the interface
+- Responsive design with mobile support
+
 ## Future Enhancements
 - Multiple color themes
 - Sound effects (optional)
 - File system simulation
 - Multi-user simulation features
 - Custom command aliases
+- GitHub Pages deployment automation
 
 ## License
 Feel free to use this as a template for your own portfolio!
